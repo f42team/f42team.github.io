@@ -10,7 +10,7 @@ a {
 }
 
 
-/* === 1. LOADER === */
+/* === LOADER === */
 #preloader {
   position: fixed;
   top: 0;
@@ -76,7 +76,7 @@ a {
 
 
 
-/* ==== 2. Helper classes ==== */
+/* ==== Helper classes ==== */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: 'Hind', sans-serif;
 }
@@ -166,7 +166,7 @@ iframe {
     max-width: 100%;
 }
 
-/* ==== 3. Buttons ==== */
+/* ==== Buttons ==== */
 
 .btn {
   color: #ffffff !important;
@@ -203,7 +203,7 @@ iframe {
 }
 
 
-/* === 9. Team === */
+/* === Team === */
 
 .team-box {
   text-align: center;
@@ -227,7 +227,7 @@ iframe {
 
 
 
-/* === 12. Contact === */
+/* === Contact === */
 .form-control {
   box-shadow: none !important;
   border: 2px solid #dddddd;
@@ -293,7 +293,7 @@ iframe {
 }
 
 
-/* === 13. Footer === */
+/* === Footer === */
 
 .footer {
   padding: 70px 0;
@@ -342,7 +342,7 @@ iframe {
   padding-bottom: 30px;
 }
 
-/*======= 15. Responsive ======*/
+/*======= Responsive ======*/
 
 @media (max-width: 767px) {
 
