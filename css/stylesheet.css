@@ -9,6 +9,155 @@ a {
   text-decoration: none !important;
 }
 
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(http://matik.id/img/training.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 38px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .top-wrapper p {
+    line-height: 22px;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+    margin-left: -50px;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -75px;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding : 0 25px;
+    float: left;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+  }
+
+  .lesson-wrapper {
+    padding-bottom: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading p {
+    padding-bottom: 15px;
+    font-size: 17px;
+    color: #b3aeb5;
+  }
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+
+  .lesson h3 {
+    font-weight: 600;
+    font-family: 'Hind', sans-serif;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #5f5d60;
+  }
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
 
 /* === LOADER === */
 #preloader {
